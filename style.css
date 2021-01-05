@@ -1,0 +1,88 @@
+body{
+    font-family: 'Playfair Display', serif;
+    background-color: #93a398;
+    margin: 0;
+}
+
+h1{
+    font-size: 70px;
+}
+
+h2{
+    font-size: 50px;
+}
+
+p{
+    color: #373632;
+}
+
+.name-highlight{
+    color: rgba(14, 163, 138, 0.664);
+    font-family: 'Lobster', cursive;
+}
+
+.half-width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+
+.half-width img{
+    width: 100%;
+    height: 576px;
+}
+
+.top-side {
+    background-image: url('img/top2.jpg');
+    background-repeat: no-repeat;
+
+}
+.middle-area {
+    background-image: url('img/dreambg.jpg');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+section {
+    height: 576px;
+    
+
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #4f6854, #e9e9e7);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+    font-weight: 700;
+
+
+}
+
+.single-experience {
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+    height: 50%;
+    background-color: rgba(192, 212, 211, 0.979);
+
+}
+
+#full-stack {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  #4f6854, black );
+    border-image-slice: 1;
+}
+
+#baby-dev {
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg,  #545c4c, black );
+    border-image-slice: 1;
+
+}
+
+footer p {
+    text-align: center;
+}
